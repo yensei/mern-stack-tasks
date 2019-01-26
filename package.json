@@ -1,0 +1,27 @@
+{
+  "name": "mean-stack-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.9",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
